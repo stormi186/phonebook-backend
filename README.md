@@ -42,4 +42,8 @@ User can see phonebook entries because backend works with the frontend
 
 ### 3.10 phonebook backend step10
 
-User can view the backend part of app deployed on heroku [https://murmuring-castle-15457.herokuapp.com](https://murmuring-castle-15457.herokuapp.com)
+User can view the backend part of app deployed on heroku
+
+### 3.11 phonebook full stack
+
+User can view full stack app that is deployed on heroku
