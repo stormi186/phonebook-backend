@@ -7,7 +7,7 @@ mongoose.set('useCreateIndex', true)
 const url = process.env.MONGODB_URI
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true  })
-  .then(result => {
+  .then(() => {
     console.log('connected to MongoDB')
   })
   .catch((error) => {
@@ -21,7 +21,7 @@ const personSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  number: { 
+  number: {
     type: String,
     minlength: 8,
     required: true
@@ -29,7 +29,7 @@ const personSchema = new mongoose.Schema({
 })
 
 personSchema.plugin(uniqueValidator)
-  
+
 personSchema.set('toJSON', {
   transform: (document, returnedObject) => {
     returnedObject.id = returnedObject._id.toString()

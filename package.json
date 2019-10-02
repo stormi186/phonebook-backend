@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "npm start",
-    "watch": "nodemon index.js"
+    "watch": "nodemon index.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.9.1",
     "npm-watch": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
   }
 }

@@ -84,6 +84,10 @@ User can only add one number for a person in the phonebook
 
 User can enter name that is shorter than 3 characters or number that is shorter than 8 numbers
 
-### Deploying the database backend to production
+### 3.21 Deploying the database backend to production
 
 User can view the new full stack app on heroku
+
+### 3.22: Lint configuration
+
+ESlint is added to the app
